@@ -1,0 +1,77 @@
+@media (max-width:991px) {
+    .header{
+        height: 70vh;
+        background-position-y: center;
+        background-position-x: center;
+    }
+    
+    .container{
+        width: 95%;
+    }
+    .about .square{
+        border: none !important;
+    }
+    .portfolio .nav-link{
+        margin-bottom: 15px;
+    }
+    .resume .col-md-6{
+        margin-bottom: 25px;
+    }
+    .testimonials .col-md-4{
+        margin-bottom: 25px;
+    }
+    .navbar .custom-btn,.navbar .nav-item{
+        width: fit-content;
+    }
+    .navbar .container{
+        flex-direction: row-reverse !important;
+    }
+    .navbar-toggler-icon {
+        background-image: url(../img/navv.svg)!important;
+    }
+
+}
+@media (max-width: 768px){
+   
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .about .container{
+        width: 100% ;
+    }
+    .about .container .row{
+        width: 100%;
+    }
+    .resume{
+        text-align: center;
+    }
+    .contact p{
+        width: 100% !important;
+    }
+    .map .contact-info{
+        width: auto;
+        text-align: left;
+    }
+    .map .contact-info span{
+        text-align: left;
+    }
+    .map .justify-content-center{
+        justify-content: start !important;
+    }
+    .map .contact-item{
+        padding-left: 1rem;
+    }
+    .map .contact-item h3{
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+    
+    .footer .copy , .footer p{
+        text-align: center;
+        margin : 10px 0;
+    }
+
+}
