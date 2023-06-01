@@ -73,7 +73,7 @@ for(let i=0;i<links.length;i++){
         let currentID=e.target.getAttribute('href');
         let targetSection = document.querySelector(currentID);
         window.scroll({
-            top:targetSection.offsetTop,
+            top:targetSection.offsetTop+1,
             behavior:'smooth'
         })
         
